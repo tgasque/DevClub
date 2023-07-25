@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header { 
+    margin: 47px 0 0 42px;
+   }
+
+.menu { 
+    margin-left: 36px;
+    width: 79px;
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+}
+
+button { 
+    width: 124px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF; 
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+button:active {
+    opacity: 0.4;
+}
+
+section { 
+    display: inline-block;
+    margin-left: 84px;
+}
+
+img {
+    display: inline-block;
+    width: 533.834px;
+    height: 466.9px;
+    margin-top: 277px;
+    margin-left: 121px;
+}
+
+h1 { 
+    width: 582px;
+    color: #161A49; 
+    font-size: 62px; 
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px; 
+}
+
+p { 
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 55px;
+}
+
+.larn-more {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.larn-more:hover {
+    opacity: 0.6;
+}
+.larn-more:active {
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        margin-top: 17px;
+    }
+    .menu { 
+        margin-left: 15px;
+    }
+    button {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-left: auto;
+    }
+    img {
+        position: absolute;
+        width: 280px;
+        height: 269px;
+        margin-top: 507px;
+        margin-left: 25%;
+
+    }
+    h1 {
+        width: 278px;;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        margin-top: 124px;
+    }
+    p {
+        width: 304;
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+    .larn-more {
+        margin: 404px 139px 369px;
+        color: #6FBF44;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+}
