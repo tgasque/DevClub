@@ -1,0 +1,15 @@
+/*
+documente -> HTML
+
+getElementById -> Trás um elemento pelo ID
+getElementByClassName -> Trá todos elementos com essa classe
+getElementByTagName -> Trás Todos os elementos com essa TAG
+getElementByName -> Trás todos os elementos com esse NAME
+
+querySelector -> Trás um elemento, o PRIMEIRO que encontrar
+querySelectorAll -> Trás TODOS os elementos que encontrar
+element.textContent -> Só no HTML
+element.innerText -> Leva em conta o CSS
+element.innerHTML -> Trá tudo e premite usar HTML dentro do JS "Mais usado pelos devs"
+*/
+
