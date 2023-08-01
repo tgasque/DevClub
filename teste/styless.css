@@ -1,0 +1,10 @@
+h1 {
+    color: #2102b8;
+}
+button {
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    cursor: pointer;
+    background: #9de600
+}
