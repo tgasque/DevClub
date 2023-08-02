@@ -31,4 +31,21 @@ console.log(currencySelect.value)
     }).format(inputCurrencyValue)  
 }
 
+function changeCurrucy(){
+    const currencyName = document.getElementById("currency-name")
+    const currencyImage = document.querySelector(".currency-img")
+    
+    if(currencySelect.value == "dolar"){
+    currencyName.innerHTML =  ("Dolar Americano")
+    currencyImage.src = "./assets/dolar.png"
+    }
+
+    if(currencySelect.value == "euro"){
+        currencyName.innerHTML =  ("Euro")
+        currencyImage.src = "./assets/euro.png"
+        }
+        convertValues()
+}
+
+currencySelect.addEventListener("change", changeCurrucy)
 convertButton.addEventListener("click", convertValues)
