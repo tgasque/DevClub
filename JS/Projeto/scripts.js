@@ -9,8 +9,7 @@ function convertValues(){
     const dolarToday = 4.81
     const euroToday = 5.27
     const libraToday = 6.12
-    const bitcoinToday = 140
-
+  
     if(currencySelect.value == "dolar"){ //Se o Select estiver selecionado o Valor de Dolar entre aqui
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style:"currency",
@@ -30,13 +29,6 @@ function convertValues(){
             style:"currency",
             currency:"GBP"
         }).format(inputCurrencyValue / libraToday)
-    }
-
-    if(currencySelect.value == "bitcoin"){ //Se o Select estiver selecionado o Valor de Bitcoin entre aqui
-        currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
-            style:"currency",
-            currency:"BTC "
-        }).format(inputCurrencyValue / bitcoinToday)
     }
 
     currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
@@ -71,6 +63,8 @@ function changeCurrucy(){
         }
         convertValues()
 }
+
+//Selecionar os botões
 
 currencySelect.addEventListener("change", changeCurrucy)
 convertButton.addEventListener("click", convertValues)
