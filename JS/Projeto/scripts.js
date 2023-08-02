@@ -33,7 +33,7 @@ function convertValues(){
     }
 
     if(currencySelect.value == "bitcoin"){ //Se o Select estiver selecionado o Valor de Bitcoin entre aqui
-        currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style:"currency",
             currency:"BTC "
         }).format(inputCurrencyValue / bitcoinToday)
