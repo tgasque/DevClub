@@ -25,7 +25,7 @@ Math -> Matemática
 
 = -> Atribuição 
 {para economizar tempo e codigo não precisando dijitar o codigo inteiro usamos atalhos como codigos ou seja codigo redusidos.
- 
+
 ex: ao enves de 
 lest result = 20
 resulte =resulte + 70 
@@ -43,5 +43,45 @@ console.log(result)
 .*= -> Mutiplicação
 .%= -> Restro
 
+5. Operadores de comparação
 
- 
+== -> Igual // Conpara o Valor, mais não o Tipo
+=== -> TOTALMENTE Igual // Conpara o VALOR e o TIPO
+
+!= -> Diferente // Ele compara o Valor, mais não o Tipo
+!== -> TOTALMENTE Diferente // compara o VALOR e o TIPO
+
+6. Operadores de comparação pt.2
+
+> -> Maior
+< -> Menor
+>= -> Maior ou Igual
+<= -> Menor ou Igual
+
+
+8. Operadores type of e delete
+
+typeof -> Serve para ver o tipo do dado
+delete -> server para apagar parametros do meus dados
+
+9. Else if
+
+IF -> (SE)
+Else -> (Se NÂO)
+Else if -> outras opções do que o IF/Else 
+
+10. Operador ternário (Modo de economizar codigo) {Criado para pequenos retornos não conseguimos usar para codigos complexos}
+
+? = IF(SE)
+: = Else(Se não)
+
+
+11. Switch case (Controlador de Fluxo)
+
+precisamos colocar o valor exato ao contrario do else e if que podemos usar valores variados 
+
+
+12. SetTimeout & setInterval
+
+SetTimeout -> Execulta um vez
+setInterval -> Execulta infinitas vezes
