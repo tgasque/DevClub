@@ -1,0 +1,47 @@
+1. Math
+
+Math -> Matemática
+
+- Pow(2,2) / potência / 2² = 4  == const result = Math.pow(5,3)
+- sqrt (25,2) /raiz quadrada / √25 == const result == Math.sqrt(25,2)
+- PI  == const result = Math.PI
+- Ceil / Teto -> arredodar para cima == const result = Math.ceil(3.14)
+- floor / chão -> arredodar para baixo == const result = Math.floor(3.14)
+-randon () / número aleatório entre 0 e 1 == const result = Math.randon()
+
+
+3. Operadores Aritméticos
+
++ -> Adição
+- -> Subtração 
+/ -> Divisão 
+* -> Mutiplicação
+% -> Restro
+++ => Incremento 
+-- -> Descremento 
+** -> Expotencial
+
+4. Operadores de Atribuição
+
+= -> Atribuição 
+{para economizar tempo e codigo não precisando dijitar o codigo inteiro usamos atalhos como codigos ou seja codigo redusidos.
+ 
+ex: ao enves de 
+lest result = 20
+resulte =resulte + 70 
+console.log(result)
+90
+usamos o 
+lest result = 20
+result += 70 
+console.log(result)
+90 
+}
+.+= -> Adição
+.-= -> Subtração 
+./= -> Divisão 
+.*= -> Mutiplicação
+.%= -> Restro
+
+
+ 
